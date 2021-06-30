@@ -72,15 +72,14 @@ filter "system:windows"
   defines {"SFML_STATIC" }
 
   filter "configurations:Debug"			
-		runtime "Debug"
-		--buildoptions "/MDd"
+		runtime "Debug"	
 		symbols "on"
 		links { "sfml-audio-s-d.lib", "sfml-graphics-s-d.lib", "sfml-network-s-d.lib", "sfml-system-s-d.lib", "sfml-window-s-d.lib" }
 
 	filter "configurations:Release"			
 		runtime "Release"
 		optimize "on"
-		--buildoptions "/MD"
+	
 		links { "sfml-audio-s.lib", "sfml-graphics-s.lib", "sfml-network-s.lib", "sfml-system-s.lib", "sfml-window-s.lib" }
  
   
