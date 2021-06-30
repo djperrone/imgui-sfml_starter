@@ -1,6 +1,0 @@
-[submodule "imgui-sfml_starter/vendor/imgui"]
-	path = imgui-sfml_starter/vendor/imgui
-	url = https://github.com/djperrone/imgui.git
-[submodule "imgui-sfml_starter/vendor/imgui-sfml"]
-	path = imgui-sfml_starter/vendor/imgui-sfml
-	url = https://github.com/djperrone/imgui-sfml.git
