@@ -4,3 +4,6 @@
 [submodule "imgui-sfml_starter/vendor/imgui-sfml"]
 	path = imgui-sfml_starter/vendor/imgui-sfml
 	url = https://github.com/djperrone/imgui-sfml.git
+[submodule "imgui-sfml_starter/vendor/spdlog"]
+	path = imgui-sfml_starter/vendor/spdlog
+	url = https://github.com/gabime/spdlog.git

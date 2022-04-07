@@ -40,7 +40,8 @@ project "imgui-sfml_starter"
 	{		
 		"%{IncludeDir.SFML}",
 		"%{IncludeDir.ImGui}",
-		"%{IncludeDir.ImGui_SFML}"
+		"%{IncludeDir.ImGui_SFML}",
+		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	libdirs
