@@ -6,7 +6,7 @@ Git repo to get a working imgui-sfml demo running quickly
 
 ### Instructions:
 1.  git clone  https://github.com/djperrone/imgui-sfml_starter.git <br>
-2.  move into git directory (cd imgui-sfml_starter)
+2.  move into git directory (cd imgui-sfml_starter)<br>
     2b. git submodule update --init --recursive
 
 3. In File Explorer, Run the GenerateProjects batch file
