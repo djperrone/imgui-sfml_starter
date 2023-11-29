@@ -30,6 +30,7 @@ project "imgui-sfml_starter"
 	files
 	{ 
 		"%{prj.name}/src/**.h",
+		"%{prj.name}/src/**.hpp",
 		"%{prj.name}/src/**.cpp",
 		"%{prj.name}/vendor/imgui/*.h",
 		"%{prj.name}/vendor/imgui/*.cpp",
